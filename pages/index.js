@@ -92,7 +92,7 @@ const BrandLogo = ({ size = 32, variant = "dark" }) => {
   return (
     <div className="flex items-center gap-3 select-none max-w-full">
       <img 
-        src="https://i.imgur.com/cavxhZs.png" 
+        src="/logo.png" 
         alt="GH Home Tutors Logo" 
         style={{ width: logoDim, height: logoDim, objectFit: 'contain', flexShrink: 0 }} 
       />
@@ -194,7 +194,7 @@ const LandingPage = () => {
                 </div>
                 <div className="text-xs text-left">
                   <div className="flex text-amber-400 mb-0.5"><Star size={12} fill="currentColor"/><Star size={12} fill="currentColor"/><Star size={12} fill="currentColor"/><Star size={12} fill="currentColor"/><Star size={12} fill="currentColor"/></div>
-                  <span className="text-slate-400 font-medium">Trusted by 30+ parents</span>
+                  <span className="text-slate-400 font-medium">Trusted by 5,000+ parents</span>
                 </div>
               </div>
             </div>
