@@ -194,7 +194,7 @@ const LandingPage = () => {
                 </div>
                 <div className="text-xs text-left">
                   <div className="flex text-amber-400 mb-0.5"><Star size={12} fill="currentColor"/><Star size={12} fill="currentColor"/><Star size={12} fill="currentColor"/><Star size={12} fill="currentColor"/><Star size={12} fill="currentColor"/></div>
-                  <span className="text-slate-400 font-medium">Trusted by 5,000+ parents</span>
+                  <span className="text-slate-400 font-medium">Trusted by 30+ parents</span>
                 </div>
               </div>
             </div>
