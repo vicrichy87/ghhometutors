@@ -1,11 +1,12 @@
 import React from 'react';
+import Head from 'next/head';
 import { 
   Star, ShieldCheck, BrainCircuit, Video, CheckCircle, GraduationCap
 } from 'lucide-react';
 
-// --- GLOBAL STYLES ---
+// --- GLOBAL STYLES (Included directly for portability, though globals.css handles base) ---
 const AppStyles = () => (
-  <style>{`
+  <style jsx global>{`
     @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
     :root { --font-serif: 'Playfair Display', serif; --font-sans: 'Plus Jakarta Sans', sans-serif; }
     body { font-family: var(--font-sans); background-color: #020617; overflow-x: hidden; }
@@ -22,6 +23,7 @@ const BrandLogo = ({ size = 32, variant = "dark" }) => {
   const isLight = variant === "light";
   return (
     <div className="flex items-center gap-3 select-none">
+      {/* Note: Standard img tag used to match original request. For Next.js optimization, consider next/image in future */}
       <img 
         src="https://i.imgur.com/cavxhZs.png" 
         alt="GH Home Tutors Logo" 
