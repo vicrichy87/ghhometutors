@@ -362,7 +362,12 @@ const LandingPage = () => {
 
           <div className="relative z-10">
             <div className="inline-block mb-8 md:mb-10 transform transition-transform group-hover:scale-110 duration-500">
-                <BrandLogo size={80} variant="light" />
+                <div className="block md:hidden">
+                  <BrandLogo size={45} variant="light" />
+                </div>
+                <div className="hidden md:block">
+                  <BrandLogo size={80} variant="light" />
+                </div>
             </div>
             
             <h2 className="text-3xl md:text-7xl font-serif font-bold text-white mb-6 md:mb-8 leading-tight">
